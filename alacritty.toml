@@ -29,6 +29,8 @@ white   = '#acb0d0'
 opacity=0.8
 blur=true
 startup_mode="Maximized"
+decorations="none"
+
 
 [font]
 size=18
