@@ -31,10 +31,9 @@ blur=true
 startup_mode="Maximized"
 decorations="none"
 
-
 [font]
 size=18
-normal={family ="GoMonoNerdFontMono", style="Bold"}
+normal={family ="IosevKaTermSlab Nerd Font", style="Regular"}
 
 [cursor]
 style= {shape="Underline", blinking="On"}
