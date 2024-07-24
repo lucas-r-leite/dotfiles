@@ -14,3 +14,7 @@ ln -s "$SCRIPT_DIR/alacritty.toml" ~/.config/alacritty/alacritty.toml
 
 # Vim
 ln -s "$SCRIPT_DIR/vimrc" ~/.vimrc
+
+# Kitty
+ln -s "$SCRIPT_DIR/current-theme.conf" ~/.config/kitty/current-theme.conf
+ln -s "$SCRIPT_DIR/kitty.conf" ~/.config/kitty/kitty.conf
