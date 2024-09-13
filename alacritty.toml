@@ -33,7 +33,7 @@ decorations="none"
 
 [font]
 size=21
-normal={family ="MingLiU-ExtB", style="Regular"}
+normal={family ="IosevkaTermslab Nerd Font", style="Regular"}
 
 [cursor]
 style= {shape="Underline", blinking="On"}
