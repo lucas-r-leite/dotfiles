@@ -29,8 +29,7 @@
     "custom/clipboard",
     // "keyboard-state",
     // "hyprland/language",
-    "battery",
-    "custom/tlp-mode"
+    "battery"
     // "battery#bat2",
     // "tray",
     // "custom/power"
@@ -257,15 +256,5 @@
     "on-click": "wofi -dmenu -p 'Clipboard History' <<< \"$(cliphist list)\" | cliphist decode | wl-copy; pkill -RTMIN+9 waybar",
     "on-click-middle": "rm -f ~/.cache/cliphist/db; pkill -RTMIN+9 waybar",
     "on-click-right": "wofi -dmenu -p 'Delete entry' <<< \"$(cliphist list)\" | cliphist delete; pkill -RTMIN+9 waybar"
-  },
-  "custom/tlp-mode": {
-    "exec": "~/.config/MyConfigFiles/waybar/tlp-mode.sh",
-    "interval": 30,
-    "format": "{output}",
-    // Map the two possible outputs to FontAwesome icons
-    "format-icons": {
-      "Battery": "",
-      "AC": ""
-    }
   }
 }
