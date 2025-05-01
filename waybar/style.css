@@ -1,10 +1,10 @@
 #waybar {
-  font-family: "Tino Nerd Font", serif;
+  font-family: "GoMono Nerd Font", serif;
   font-size: 12px;
 }
 
 #window {
-  padding: 0 10px;
+  padding: 0 10em;
 }
 
 window#waybar {
@@ -61,12 +61,22 @@ window#waybar {
 
 #pulseaudio {
   font-size: 12px;
+  padding-right: 5px;
+  min-width: 40px;
 }
 
 #custom-recorder {
   font-size: 18px;
   margin: 2px 7px 0px 7px;
   color: #ee2e24;
+}
+
+#custom-power {
+  padding: 0 10px;
+}
+
+#memory {
+  padding: 0 10px;
 }
 
 #tray,
