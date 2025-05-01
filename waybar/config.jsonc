@@ -20,10 +20,8 @@
     "temperature",
     "backlight",
     "custom/clipboard",
+    "bluetooth",
     "battery",
-    // "power-profiles-daemon",
-    // "battery#bat2",
-    // "tray",
     "custom/power"
   ],
   // Modules configuration
@@ -183,7 +181,7 @@
     "format-alt": "{ifname}: {ipaddr}/{cidr}"
   },
   "pulseaudio": {
-    "format": "{icon} {volume}% {format_source}",
+    "format": "{icon} {format_source}",
     "format-bluetooth": "{icon} {volume}% {icon} {format_source}",
     "format-bluetooth-muted": "{icon} {format_source}",
     "format-muted": "  {format_source}",
@@ -237,5 +235,16 @@
     "on-click": "wofi -dmenu -p 'Clipboard History' <<< \"$(cliphist list)\" | cliphist decode | wl-copy; pkill -RTMIN+9 waybar",
     "on-click-middle": "rm -f ~/.cache/cliphist/db; pkill -RTMIN+9 waybar",
     "on-click-right": "wofi -dmenu -p 'Delete entry' <<< \"$(cliphist list)\" | cliphist delete; pkill -RTMIN+9 waybar"
+  },
+  "bluetooth": {
+    "format": " {icon}",
+    "format-icons": {
+      "disabled": "󰂲",
+      "off": "",
+      "on": "",
+      "connected": ""
+    },
+    "tooltip-format": "{status}",
+    "on-click": "blueman-manager"
   }
 }
