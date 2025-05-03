@@ -154,11 +154,11 @@
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
     ]
   },
   "battery#bat2": {
@@ -227,7 +227,7 @@
     }
   },
   "custom/clipboard": {
-    "format": " {text}", // still use {text}
+    "format": " ", // still use {text}
     "return-type": "json", // parse JSON
     "interval": "once", // run only at startup; use signal to update
     "exec": "printf '{\"text\": \"%s\"}' $(cliphist list | wc -l)",
@@ -241,8 +241,8 @@
     "format-icons": {
       "disabled": "󰂲",
       "off": "",
-      "on": "",
-      "connected": ""
+      "on": " ",
+      "connected": " "
     },
     "tooltip-format": "{status}",
     "on-click": "blueman-manager"
