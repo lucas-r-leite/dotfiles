@@ -21,3 +21,9 @@ ln -s "$SCRIPT_DIR/vimrc" ~/.vimrc
 
 # Wofi
 ln -s "$SCRIPT_DIR/wofi/" ~/.config/wofi
+
+# Waybar
+ln -s "$SCRIPT_DIR/waybar/" ~/.config/waybar
+
+# Superfile
+ln -s "$SCRIPT_DIR/superfile/" ~/.config/superfile
