@@ -22,6 +22,7 @@
     "custom/clipboard",
     "bluetooth",
     "battery",
+    "tray",
     "custom/power"
   ],
   // Modules configuration
@@ -176,8 +177,8 @@
     }
   },
   "network": {
-    "format-wifi": "{essid} ({signalStrength}%) ",
-    "format-disconnected": "Disconnected ⚠",
+    "format-wifi": "{essid} ({signalStrength}%)  ",
+    "format-disconnected": "Disconnected ⚠ ",
     "format-alt": "{ifname}: {ipaddr}/{cidr}"
   },
   "pulseaudio": {
@@ -186,18 +187,18 @@
     "format-bluetooth-muted": "{icon} {format_source}",
     "format-muted": "  {format_source}",
     "format-source": "",
-    "format-source-muted": "",
+    "format-source-muted": " ",
     "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
+      "headphone": " ",
+      "hands-free": " ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": " ",
       "default": [
         "",
-        "",
-        ""
+        " ",
+        " "
       ]
     },
     "on-click": "pavucontrol"

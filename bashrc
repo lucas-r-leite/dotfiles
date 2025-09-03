@@ -21,9 +21,9 @@ source <(ng completion script)
 export EDITOR=nvim
 
 # Alias
-alias e="exit"
-alias l="nvim"
-alias v="vim"
-alias c="clear"
-alias t="tmux"
-alias tat="tmux a -t"
+# alias e="exit"
+# alias l="nvim"
+# alias v="vim"
+# alias c="clear"
+# alias t="tmux"
+# alias tat="tmux a -t"
