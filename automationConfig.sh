@@ -29,4 +29,4 @@ ln -s "$SCRIPT_DIR/waybar/" ~/.config/waybar
 ln -s "$SCRIPT_DIR/superfile/" ~/.config/superfile
 
 # Neovim
-ln -s "$SCRIPT_DIR/nvim/" ~/.config/nvim
+# ln -s "$SCRIPT_DIR/nvim/" ~/.config/nvim
