@@ -1,6 +1,6 @@
 [general]
 import = [
-  "~/.config/MyConfigFiles/tokyo_night.toml"
+  "~/.config/dotfiles/tokyo_night.toml"
 ]
 [window]
 opacity=0.98
