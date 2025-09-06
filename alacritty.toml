@@ -3,7 +3,7 @@ import = [
   "~/.config/dotfiles/tokyo_night.toml"
 ]
 [window]
-opacity=0.98
+opacity=0.99
 blur=true
 startup_mode="Maximized"
 decorations="none"
