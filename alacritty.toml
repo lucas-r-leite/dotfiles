@@ -3,14 +3,14 @@ import = [
   "~/.config/dotfiles/tokyo_night.toml"
 ]
 [window]
-opacity=0.99
+opacity=0.85
 blur=true
 startup_mode="Maximized"
 decorations="none"
 
 [font]
-size=21
-normal={family ="IosevkaTermslab Nerd Font", style="Regular"}
+size=16
+normal={family ="IosevkaTermslab Nerd Font", style="Bold"}
 
 [cursor]
 style= {shape="Underline", blinking="On"}
